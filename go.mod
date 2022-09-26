@@ -1,6 +1,6 @@
 module github.com/deegiimurun/gorm-oracle
 
-go 1.14
+go 1.19
 
 require (
 	github.com/emirpasic/gods v1.12.0

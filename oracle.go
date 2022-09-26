@@ -52,7 +52,7 @@ func (d Dialector) Initialize(db *gorm.DB) (err error) {
 	// register callbacks
 	callbacks.RegisterDefaultCallbacks(db, &callbacks.Config{})
 
-	d.DriverName = "oracle"
+	d.DriverName = "godror"
 
 	if d.Conn != nil {
 		db.ConnPool = d.Conn
